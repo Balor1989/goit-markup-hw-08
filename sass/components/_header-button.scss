@@ -1,0 +1,16 @@
+.nav-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  &__cross-icon {
+    display: none;
+  }
+}
+.nav-button.is-open .cross-icon {
+  display: block;
+}
+.nav-button.is-open .menu-icon {
+  display: none;
+}
