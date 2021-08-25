@@ -15,24 +15,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-@media screen and (min-width: 480px) {
-  body {
-    width: 480px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  body {
-    width: 768px;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  body {
-    width: 1600px;
-  }
-}
-
 ul {
   list-style: none;
   margin: 0;
@@ -46,6 +28,24 @@ p {
 .header {
   padding-top: 25px;
   padding-bottom: 22px;
+}
+
+@media screen and (min-width: 480px) {
+  .header {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .header {
+    width: 1600px;
+  }
 }
 
 .header__box {
@@ -64,6 +64,9 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
@@ -388,21 +391,30 @@ p {
 }
 
 .footer-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
+@media screen and (min-width: 480px) {
+  .footer-section {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-section {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .footer-section {
+    width: 1600px;
+  }
+}
+
 .footer-section__box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -465,25 +477,10 @@ p {
 }
 
 .join-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 206px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .join-box__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   height: 44px;
   width: 44px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -513,12 +510,6 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
-}
-
-.send-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .send-form__email {

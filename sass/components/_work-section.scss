@@ -1,6 +1,9 @@
 .works-section {
   padding-top: 94px;
   padding-bottom: 94px;
+  @media screen and (max-width: 479px) {
+    display: none;
+  }
   &__box {
     width: 1200px;
     margin-left: auto;
@@ -19,8 +22,6 @@
   }
 }
 .work {
-  display: flex;
-  justify-content: space-between;
   &__box {
     position: relative;
     height: 294px;
