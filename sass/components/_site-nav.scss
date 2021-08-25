@@ -1,0 +1,38 @@
+.nav-box {
+  margin-left: 93px;
+}
+.site-nav {
+  display: flex;
+  &__list:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+.site-nav__item {
+  color: $primary-text-color;
+  padding: 32px 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: color 250ms $cubic-bezier;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+.site-nav__item--active {
+  position: relative;
+  color: $accent-color;
+  &::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 1.5px;
+    border-radius: 2px;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: $accent-color;
+  }
+}

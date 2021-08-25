@@ -1,0 +1,15 @@
+.footer-section {
+  display: flex;
+  background-color: $footer-bgc;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
