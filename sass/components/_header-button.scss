@@ -4,13 +4,7 @@
   padding: 0;
   border: none;
   background-color: transparent;
-  &__cross-icon {
+  @media screen and (min-width: 480px) {
     display: none;
   }
-}
-.nav-button.is-open .cross-icon {
-  display: block;
-}
-.nav-button.is-open .menu-icon {
-  display: none;
 }
