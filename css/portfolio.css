@@ -30,6 +30,13 @@ p {
   padding-bottom: 22px;
 }
 
+@media screen and (max-width: 1199px) {
+  .header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
 .header__box {
   display: -webkit-box;
   display: -ms-flexbox;
