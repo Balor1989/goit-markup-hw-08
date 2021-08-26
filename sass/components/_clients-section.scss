@@ -2,7 +2,7 @@
   padding-top: 94px;
   padding-bottom: 94px;
   &__box {
-    width: 1200px;
+    // width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -21,6 +21,8 @@
   }
 }
 .client {
+  // display: flex;
+  // justify-content: space-between;
   &__box {
     width: 170px;
     height: 92px;
@@ -30,13 +32,13 @@
   &__box:hover {
     border: 1px solid $accent-color;
   }
-  &__link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 170px;
-    height: 92px;
-  }
+  // &__link {
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  //   width: 170px;
+  //   height: 92px;
+  // }
   &__link:hover .client__icon,
   &__link:focus .client__icon {
     fill: $accent-color;
