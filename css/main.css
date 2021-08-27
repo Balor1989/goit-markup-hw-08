@@ -873,8 +873,8 @@ img {
 }
 
 .team-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #f5f4fa;
 }
 
@@ -903,9 +903,18 @@ img {
   background-color: #ffffff;
 }
 
+.developer__card:not(:last-child) {
+  margin-bottom: 30px;
+}
+
 .developer__cardbox {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.developer__image {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .developer__name {
@@ -928,7 +937,26 @@ img {
   line-height: 1.2;
 }
 
+.developer__social-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 16px 32px 0 32px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .developer__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 44px;
   width: 44px;
   background-color: #ffffff;

@@ -1,6 +1,6 @@
 .team-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #f5f4fa;
   &__box {
     max-width: 1200px;
@@ -28,9 +28,16 @@
     border-radius: 0px 0px 4px 4px;
     background-color: #ffffff;
   }
+  &__card:not(:last-child) {
+    margin-bottom: 30px;
+  }
   &__cardbox {
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+  &__image {
+    margin-left: auto;
+    margin-right: auto;
   }
   &__name {
     margin: 0;
@@ -52,14 +59,14 @@
     line-height: 1.2;
   }
   &__social-box {
-    // display: flex;
-    // padding: 16px 32px 0 32px;
-    // justify-content: space-around;
+    display: flex;
+    padding: 16px 32px 0 32px;
+    justify-content: center;
   }
   &__link {
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 44px;
     width: 44px;
     background-color: #ffffff;
