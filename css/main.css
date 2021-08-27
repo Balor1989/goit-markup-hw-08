@@ -25,6 +25,12 @@ p {
   margin: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .header {
   padding-top: 25px;
   padding-bottom: 22px;
@@ -216,12 +222,11 @@ p {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  max-width: 100vw;
   height: 100vh;
   background: #ffffff;
   -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
-  z-index: 999;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -766,7 +771,7 @@ p {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero-bcg.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  height: 600px;
+  max-height: 600px;
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
@@ -811,10 +816,11 @@ p {
 }
 
 .thesis-section {
-  padding-top: 94px;
+  padding-top: 60px;
 }
 
 .thesis-section__box {
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -825,11 +831,20 @@ p {
   display: none;
 }
 
-.thesis-box__item:not(:first-child) {
-  margin-left: 30px;
+.thesis-box__item {
+  margin-bottom: 30px;
 }
 
 .thesis-box__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 120px;
   margin-bottom: 30px;
   background-color: #f5f4fa;
@@ -842,6 +857,7 @@ p {
 
 .thesis-box__title {
   margin: 0;
+  text-align: center;
   color: #212121;
   text-transform: uppercase;
   font-weight: 700;
@@ -863,6 +879,7 @@ p {
 }
 
 .team-section__box {
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -945,6 +962,7 @@ p {
 }
 
 .clients-section__box {
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -1067,6 +1085,10 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
+}
+
+.join-box {
+  max-width: 206px;
 }
 
 .join-box__link {
