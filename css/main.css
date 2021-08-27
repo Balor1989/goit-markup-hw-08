@@ -779,7 +779,6 @@ img {
 
 .hero-section__title {
   margin-top: 0;
-  padding-top: 200px;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -910,11 +909,6 @@ img {
 .developer__cardbox {
   padding-top: 30px;
   padding-bottom: 30px;
-}
-
-.developer__image {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .developer__name {
