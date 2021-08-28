@@ -29,11 +29,8 @@
   }
 }
 .client {
-  display: flex;
-  width: 50%;
-  flex-wrap: wrap;
   &__box {
-    width: 170px;
+    max-width: 170px;
     height: 92px;
     border: 1px solid #afb1b8;
     transition: border 250ms $cubic-bezier;

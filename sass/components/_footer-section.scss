@@ -1,12 +1,13 @@
 .footer-section {
   // display: flex;
-  // background-color: $footer-bgc;
-  // padding-top: 60px;
-  // padding-bottom: 60px;
+  background-color: $footer-bgc;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
   &__box {
     // display: flex;
     // justify-content: space-between;
-    // width: 1200px;
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
