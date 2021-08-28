@@ -2,7 +2,15 @@
   padding-top: 94px;
   padding-bottom: 94px;
   &__box {
-    max-width: 1200px;
+    @media screen and (min-width: 480px) {
+      width: 480px;
+    }
+    @media screen and (min-width: 768px) {
+      width: 768px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 1200px;
+    }
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -21,8 +29,9 @@
   }
 }
 .client {
-  // display: flex;
-  // justify-content: space-between;
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
   &__box {
     width: 170px;
     height: 92px;
@@ -32,13 +41,13 @@
   &__box:hover {
     border: 1px solid $accent-color;
   }
-  // &__link {
-  //   display: flex;
-  //   align-items: center;
-  //   justify-content: center;
-  //   width: 170px;
-  //   height: 92px;
-  // }
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+  }
   &__link:hover .client__icon,
   &__link:focus .client__icon {
     fill: $accent-color;

@@ -42,7 +42,7 @@
     height: 16px;
     transition: fill 250ms $cubic-bezier;
   }
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
 }
