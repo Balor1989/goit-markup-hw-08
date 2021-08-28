@@ -1,14 +1,14 @@
 .nav-box {
-  margin-left: 93px;
+  // margin-left: 93px;
   @media screen and (max-width: 479px) {
     display: none;
   }
 }
 .site-nav {
-  display: flex;
-  &__list:not(:last-child) {
-    margin-right: 50px;
-  }
+  // display: flex;
+  // &__list:not(:last-child) {
+  //   margin-right: 50px;
+  // }
 }
 .site-nav__item {
   color: $primary-text-color;
