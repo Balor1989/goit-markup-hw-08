@@ -817,7 +817,7 @@ img {
           justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  height: 400px;
+  height: 50%;
 }
 
 @media screen and (min-width: 480px) {
@@ -840,7 +840,6 @@ img {
 
 .hero-section__title {
   text-align: center;
-  margin-top: 0;
   margin-top: 118px;
   margin-bottom: 30px;
   margin-left: auto;
