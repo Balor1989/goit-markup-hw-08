@@ -59,6 +59,24 @@ img {
   padding-right: 15px;
 }
 
+@media screen and (min-width: 480px) {
+  .header__box {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__box {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header__box {
+    width: 1200px;
+  }
+}
+
 .header--active {
   border-bottom: solid 1px #f5f4fa;
 }
