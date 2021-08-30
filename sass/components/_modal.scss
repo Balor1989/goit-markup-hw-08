@@ -13,21 +13,23 @@
   pointer-events: none;
 }
 .modal {
-  @media screen and (min-width: 480px) {
+  @media screen and (max-width: 479px) {
+    width: 90vw;
+  }
+  @media screen and (min-width: 480px) and (max-width: 767px) {
     width: 480px;
   }
   @media screen and (min-width: 768px) {
-    width: 768px;
+    width: 480px;
   }
   @media screen and (min-width: 1200px) {
-    width: 1200px;
+    max-width: 528px;
+    min-height: 581px;
   }
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 528px;
-  min-height: 581px;
   background-color: $hero-text-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -36,13 +38,6 @@
   &__title {
     @media screen and (min-width: 1200px) {
       line-height: 1.15;
-      font-family: Roboto;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 20px;
-      line-height: 23px;
-      text-align: center;
-      letter-spacing: 0.03em;
     }
     margin: 0;
     font-weight: bold;
