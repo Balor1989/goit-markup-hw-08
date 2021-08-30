@@ -1,11 +1,17 @@
 .header-contacts {
-  // margin-left: auto;
-  &__box {
-    // display: flex;
+  @media screen and (min-width: 1200px) {
+    margin-left: auto;
   }
-  // &__list:not(:last-child) {
-  //   margin-right: 50px;
-  // }
+  &__box {
+    @media screen and (min-width: 1200px) {
+      display: flex;
+    }
+  }
+  &__list:not(:last-child) {
+    @media screen and (min-width: 1200px) {
+      margin-right: 50px;
+    }
+  }
   &__item {
     // display: flex;
     // padding: 10px 0;
