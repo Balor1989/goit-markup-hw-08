@@ -22,13 +22,14 @@
 .nav-mobile {
   width: 100%;
   height: 100%;
-  padding: 48px 83px 48px 40px;
+  padding: 48px 40px 48px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .navigation-box {
   display: flex;
+
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
@@ -90,6 +91,7 @@
   max-width: 480px;
   &__links {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
   &__item {

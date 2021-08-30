@@ -1,11 +1,11 @@
 .header-contacts {
-  margin-left: auto;
+  // margin-left: auto;
   &__box {
     // display: flex;
   }
-  &__list:not(:last-child) {
-    margin-right: 50px;
-  }
+  // &__list:not(:last-child) {
+  //   margin-right: 50px;
+  // }
   &__item {
     // display: flex;
     // padding: 10px 0;
