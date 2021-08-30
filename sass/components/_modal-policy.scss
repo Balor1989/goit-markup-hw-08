@@ -22,9 +22,13 @@
     transition: all 250ms $cubic-bezier;
   }
   &__accept-text {
+    @media screen and (min-width: 1200px) {
+      font-size: 14px;
+      line-height: 1.71;
+    }
     font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     margin-left: 8px;
     display: inline-flex;

@@ -13,11 +13,19 @@
   pointer-events: none;
 }
 .modal {
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
   max-width: 528px;
   min-height: 581px;
   background-color: $hero-text-color;
@@ -26,10 +34,20 @@
   border-radius: 4px;
   transition: opacity 250ms $cubic-bezier;
   &__title {
+    @media screen and (min-width: 1200px) {
+      line-height: 1.15;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 23px;
+      text-align: center;
+      letter-spacing: 0.03em;
+    }
     margin: 0;
     font-weight: bold;
     font-size: 20px;
-    line-height: 1.15;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em;
     color: $primary-text-color;
