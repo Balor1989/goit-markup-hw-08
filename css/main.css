@@ -460,7 +460,6 @@ img {
 }
 
 .works-section {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -1649,6 +1648,7 @@ img {
 
 .project-box__name {
   margin: 0;
+  margin-bottom: 4px;
   color: #212121;
   font-weight: 700;
   font-size: 18px;
