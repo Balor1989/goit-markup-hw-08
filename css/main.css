@@ -1364,7 +1364,7 @@ img {
 }
 
 .client__box {
-  max-width: 170px;
+  width: 210px;
   max-height: 92px;
   border: 1px solid #afb1b8;
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1374,6 +1374,24 @@ img {
 @media screen and (max-width: 1199px) {
   .client__box {
     margin: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .client__box {
+    width: 226px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .client__box {
+    margin: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .client__box {
+    width: 170px;
   }
 }
 
@@ -1393,6 +1411,18 @@ img {
           justify-content: center;
   width: 170px;
   height: 92px;
+}
+
+@media screen and (max-width: 767px) {
+  .client__link {
+    width: 210px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .client__link {
+    width: 226px;
+  }
 }
 
 .client__link:hover .client__icon,
