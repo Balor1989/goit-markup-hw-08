@@ -804,7 +804,7 @@ img {
 .policy__accept-box:checked + .policy__check-place {
   background-color: #2196f3;
   border: 2px solid #2196f3;
-  background-image: url(/images/accept.svg);
+  background-image: url(../images/accept.svg);
   background-size: contain;
   background-origin: border-box;
   background-position: center;
@@ -822,7 +822,6 @@ img {
   margin-right: 8px;
   -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
 }
 
 .policy__accept-text {
@@ -838,7 +837,6 @@ img {
       -ms-flex-align: center;
           align-items: center;
   color: #757575;
-  cursor: pointer;
 }
 
 @media screen and (min-width: 1200px) {
