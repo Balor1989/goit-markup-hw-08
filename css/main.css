@@ -860,9 +860,9 @@ img {
 .hero-section {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero-img-mobile-480.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-img-mobile-480.jpg);
-  max-width: 450px;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   min-height: 400px;
   margin-left: auto;
   margin-right: auto;
@@ -872,7 +872,6 @@ img {
   .hero-section {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero-img-tablet-768.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-img-tablet-768.jpg);
-    max-width: 768px;
   }
 }
 
@@ -1051,7 +1050,7 @@ img {
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 767px) {
   .thesis-box__item {
     margin-bottom: 30px;
   }
@@ -1100,11 +1099,22 @@ img {
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 767px) {
+  .thesis-box__title {
+    text-align: center;
+  }
+}
+
 .thesis-box__text {
-  max-width: 354px;
   color: #757575;
   font-size: 14px;
   line-height: 1.7;
+}
+
+@media screen and (min-width: 768px) {
+  .thesis-box__text {
+    max-width: 354px;
+  }
 }
 
 .team-section {
