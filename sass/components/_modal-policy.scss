@@ -6,7 +6,7 @@
   &__accept-box:checked + .policy__check-place {
     background-color: $accent-color;
     border: 2px solid $accent-color;
-    background-image: url(../images/accept.svg);
+    background-image: url(/images/accept.svg);
     background-size: contain;
     background-origin: border-box;
     background-position: center;
